@@ -3,9 +3,29 @@
   
   <body>
     <script src="tarefa 2.js"> </script>
-    <h2> </h2>
-    <h2> </h2>
-    <h2> </h2>
+    
+    <ol> </ol>
+    
+    <h1> Água-viva </h1>
+    
+    <h2> Composição </h2>
+    As águas-vivas, ou medusas, são animais marinhos pertencentes ao filo Cnidaria, classe Scyphozoa. 
+    O corpo tem a forma de um sino margeado por tentáculos e apresenta uma organização simples, 
+    havendo uma cavidade gastrovascular central com uma única abertura que atua como boca e ânus. 
+    A parede é formada pela epiderme (derivada da ectoderme) e pela gastroderme (derivada da endoderme), 
+    intercaladas por um material gelatinoso chamado de mesogleia.
+    
+    <h2> Difusão </h2>
+    Não possuem sistema circulatório, respiratório e excretor. 
+    Como o organismo possui poucas camadas de células, o transporte de substâncias ocorre por meio de difusão.
+    
+    <h2> Curiosidades </h2>
+    Muitas medusas são bioluminescentes;
+    Em algumas espécies, a toxina produzida é mais potente que a peçonha de algumas cobras.
+    
+    Deve-se evitar nadar onde há uma grande concentração de águas-vivas, 
+    pois a toxina produzida por elas pode provocar irritações semelhantes a queimaduras e até reações alérgicas fortes, que podem levar a óbito.
+    
   </body>
 
 </html>
