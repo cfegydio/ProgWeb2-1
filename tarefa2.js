@@ -3,7 +3,7 @@ const topicos = new Array();
 subtitulos.forEach(element => {
 	topicos.push(element.textContent);
 	
-	const ancora = createElement("a");
+	const ancora = document.createElement("a");
 	ancora.setAttribute("name", element.textContent);
 	element.append(ancora);
 	
