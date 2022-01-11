@@ -15,7 +15,7 @@ function atualizaTamanho() {
 }
 
 function aumentaTitulo() {
-    if (tamanho < 5) {
+    if (tamanho < 4) {
         tamanho += 0.5;
         atualizaTamanho();
     }
