@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> DDD </title>
+    </head>
+
+    <body>
+        <input type="text" placeholder="DDD" id="DDD" size="3"> 
+        <ul></ul>
+        <script>
+            document.querySelector("#DDD").addEventListener("change",buscaCidades)
+
+            function buscaCidades(evento){
+                fetch(`https://brasilapi.com.br/api/ddd/v1/${evento.target.value}`)
+                .then(resposta => resposta.json())
+                .then(dados => {
+                    listaCidades(dados.cities)
+                });
+            }
+
+            function listaCidades(cidades){
+                const tamanho = cidades.length;
+                const lista = document.querySelector("ul");
+                lista.innerHTML = "<ul></ul>";
+                for(let i = 0; i < tamanho; i++){
+                    item = document.createElement("li");
+                    item.textContent = cidades[i];
+                    lista.append(item);
+                }
+            }
+        </script>
+    </body>
+</html> 
