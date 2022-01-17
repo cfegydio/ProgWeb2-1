@@ -1,6 +1,6 @@
 const tamanhoCelula = 40;
 document.body.append(criaTabuleiro());
-document.body.background = 'ProgWeb2/img/aquarela.jpg';
+document.body.background = 'https://eduolmo.github.io/ProgWeb2/img/aquarela.jpg';
 
 function criaTabuleiro() {
     const tamanho = 8;
